@@ -1,0 +1,30 @@
+<!DOCTYPE MeshLabDocument>
+<MeshLabProject>
+ <MeshGroup>
+  <MLMesh filename="output/m2e3dv6_body.ply" label="m2e3dv6_body.ply">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+  </MLMesh>
+  <MLMesh filename="output/m2e3dv6_pressuretongue.ply" label="m2e3dv6_pressuretongue.ply">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+  </MLMesh>
+  <MLMesh filename="output/m2e3dv6_hardware.ply" label="m2e3dv6_hardware.ply">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+  </MLMesh>
+ </MeshGroup>
+ <RasterGroup/>
+</MeshLabProject>
