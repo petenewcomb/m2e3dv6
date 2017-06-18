@@ -19,7 +19,7 @@ m2e3dv6: $(wildcard *.go)
 	meshlab $< 2>/dev/null
 
 %.ply: %.stl $(POSTPROCESS_MLX)
-	meshlab.meshlabserver -i $< -o $@ -s $(POSTPROCESS_MLX)
+	meshlabserver -i $< -o $@ -s $(POSTPROCESS_MLX)
 
 .PHONY: clean
 clean:
